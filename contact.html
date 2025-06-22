@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hannah Hernandez and Erica Cadsawan">
+    <meta name="description" content="Test Automation PH Website" />
+    <meta name="author" content="Test Automation PH" />
+    <title>Test Automation PH</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon">
+
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="index.html">
+              <img src="./img/logo.jpg" alt="Test Automation PH Logo">
+              <h1>Test Automation PH</h1>
+             </a>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <nav class="desktop-nav">
+            <a href="./index.html">Home</a>
+            
+            <!-- Services Dropdown -->
+            <div class="dropdown">
+              <button class="dropdown-button" id="servicesBtn">
+                Services
+                <span class="chevron">▼</span>
+              </button>
+              
+              <div class="dropdown-menu" id="servicesMenu">
+                <a href="#testing-services">Testing-As-A-Service</a> 
+                <a href="#individual-training">Individual Training</a>
+                <a href="#corporate-training">Corporate Training</a>
+              </div>
+            </div>
+
+            <a href="#testimonials">Testimonials</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+          </nav>
+
+          <!-- Practice Now Button & Mobile Menu Button -->
+          <div class="header-actions">
+            <button class="btn btn-primary" onclick="openInNewTab()">Practice Now</button>
+            
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+              <span class="hamburger"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+          <a href="./index.html">Home</a>
+          <a href="#testing-services">Testing-As-A-Service</a>
+          <a href="#individual-training">Individual Training</a>
+          <a href="#corporate-training">Corporate Training</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#blog">Blog</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="contacts" class="hero-sub">
+      <div class="hero-background"></div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title animate-on-scroll">
+           Contact Us 
+          </h1>
+          <p class="hero-description animate-on-scroll">
+                <a href="#">Home</a> >
+                <a href="#">Contact</a>
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Contacts Section-->
+    <div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer animate-on-scroll">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Company Info -->
+          <div class="footer-company">
+            <h3>Test Automation PH</h3>
+            <p>
+              Empowering software testers and organizations with comprehensive test automation solutions 
+              to ensure application quality and reliability through automated testing processes.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#blog">Blog</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <ul>
+              <li>info@testautomationph.com</li>
+              <li>+63 (2) 123-4567</li>
+              <li>123 Tech Street<br />Makati City, Metro Manila 1200</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 / Powered by <span class="highlight">Test Forge IT Consultancy</span> in 
+            partnership with <span class="highlight">Code Blossom</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
