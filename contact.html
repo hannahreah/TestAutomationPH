@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hannah Hernandez and Erica Cadsawan">
+    <meta name="description" content="Test Automation PH Website" />
+    <meta name="author" content="Test Automation PH" />
+    <title>Test Automation PH</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon">
+
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="index.html">
+              <img src="./img/logo.jpg" alt="Test Automation PH Logo">
+              <h1>Test Automation PH</h1>
+             </a>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <nav class="desktop-nav">
+            <a href="./index.html">Home</a>
+            
+                      <!-- Services Dropdown -->
+            <div class="dropdown">
+              <button class="dropdown-button" id="servicesBtn">
+                Services
+                <span class="chevron">▼</span>
+              </button>
+              
+              <div class="dropdown-menu" id="servicesMenu">
+                <a href="./index.html#services">Testing-As-A-Service</a> 
+                <a href="./index.html#services">Individual Training</a>
+                <a href="./index.html#services">Corporate Training</a>
+              </div>
+            </div>
+
+            <a href="./index.html#testimonials">Testimonials</a>
+            <a href="./index.html#blog">Blog</a>
+            <a href="./about_us.html">About Us</a>
+            <a href="./contact.html">Contact Us</a>
+          </nav>
+
+          <!-- Practice Now Button & Mobile Menu Button -->
+          <div class="header-actions">
+            <button class="btn btn-primary" onclick="openInNewTab()">Practice Now</button>
+            
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+              <span class="hamburger"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#services">Testing-As-A-Service</a>
+          <a href="./index.html#services">Individual Training</a>
+          <a href="./index.html#services">Corporate Training</a>
+          <a href="./index.html#testimonials">Testimonials</a>
+          <a href="./index.html#blog">Blog</a>
+          <a href="./about_us.html">About Us</a>
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="contacts" class="hero-sub">
+      <div class="hero-background"></div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title animate-on-scroll">
+           Contact Us 
+          </h1>
+          <p class="hero-description animate-on-scroll">
+                <a href="#">Home</a> >
+                <a href="#">Contact Us</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Contacts Section-->
+    <section id="contact" style="padding: 80px 20px; max-width: 1000px; margin: 0 auto; color: #6b7280; background-color: #ffffff;">
+      <h2 style="font-size: 36px; color: #2563eb; margin-bottom: 20px;">Get in Touch</h2>
+      <p style="font-size: 18px; line-height: 1.6; margin-bottom: 40px;">
+        We're here to help! Whether you're looking for training, services, or just want to say hello, fill out the form below and we’ll get back to you as soon as possible.
+      </p>
+    
+      <form action="#" method="POST" style="display: grid; gap: 20px;">
+        <input type="text" name="name" placeholder="Your Name" required
+          style="padding: 15px; font-size: 16px; border: none; border-radius: 5px; background-color: #ffffff; color: white;" />
+    
+        <input type="email" name="email" placeholder="Your Email" required
+          style="padding: 15px; font-size: 16px; border: none; border-radius: 5px; background-color: #ffffff; color: white;" />
+    
+        <input type="text" name="subject" placeholder="Subject"
+          style="padding: 15px; font-size: 16px; border: none; border-radius: 5px; background-color: #ffffff; color: white;" />
+    
+        <textarea name="message" placeholder="Your Message" required
+          style="padding: 15px; font-size: 16px; border: none; border-radius: 5px; background-color: #ffffff; color: white; height: 150px; resize: none;"></textarea>
+    
+        <button type="submit"
+          style="padding: 15px; font-size: 16px; background-color: #2563eb; border: none; border-radius: 5px; color: white; cursor: pointer;">
+          Send Message
+        </button>
+      </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer animate-on-scroll">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Company Info -->
+          <div class="footer-company">
+            <h3>Test Automation PH</h3>
+            <p>
+              Empowering software testers and organizations with comprehensive test automation solutions 
+              to ensure application quality and reliability through automated testing processes.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+           <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./index.html#services">Services</a></li>
+              <li><a href="./index.html#testimonials">Testimonials</a></li>
+              <li><a href="./index.html#blog">Blog</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <ul>
+              <li>info@testautomationph.com</li>
+              <li>+63 (2) 123-4567</li>
+              <li>123 Tech Street<br />Makati City, Metro Manila 1200</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 / Powered by <span class="highlight">Test Forge IT Consultancy</span> in 
+            partnership with <span class="highlight">Code Blossom</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

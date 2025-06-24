@@ -347,6 +347,13 @@ body {
   margin-bottom: 2rem;
   line-height: 1.6;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.hero-description a {
+   text-decoration: none;  
+  color: #fff;  
 }
 
 .hero-title-main {

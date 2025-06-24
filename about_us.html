@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hannah Hernandez and Erica Cadsawan">
+    <meta name="description" content="Test Automation PH Website" />
+    <meta name="author" content="Test Automation PH" />
+    <title>Test Automation PH</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon">
+
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="index.html">
+              <img src="./img/logo.jpg" alt="Test Automation PH Logo">
+              <h1>Test Automation PH</h1>
+             </a>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <nav class="desktop-nav">
+            <a href="./index.html">Home</a>
+            
+            <!-- Services Dropdown -->
+            <div class="dropdown">
+              <button class="dropdown-button" id="servicesBtn">
+                Services
+                <span class="chevron">▼</span>
+              </button>
+              
+              <div class="dropdown-menu" id="servicesMenu">
+                <a href="./index.html#services">Testing-As-A-Service</a> 
+                <a href="./index.html#services">Individual Training</a>
+                <a href="./index.html#services">Corporate Training</a>
+              </div>
+            </div>
+
+            <a href="./index.html#testimonials">Testimonials</a>
+            <a href="./index.html#blog">Blog</a>
+            <a href="./about_us.html">About Us</a>
+            <a href="./contact.html">Contact Us</a>
+          </nav>
+
+          <!-- Practice Now Button & Mobile Menu Button -->
+          <div class="header-actions">
+            <button class="btn btn-primary" onclick="openInNewTab()">Practice Now</button>
+            
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+              <span class="hamburger"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#services">Testing-As-A-Service</a>
+          <a href="./index.html#services">Individual Training</a>
+          <a href="./index.html#services">Corporate Training</a>
+          <a href="./index.html#testimonials">Testimonials</a>
+          <a href="./index.html#blog">Blog</a>
+          <a href="./about_us.html">About Us</a>
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="contacts" class="hero-sub">
+      <div class="hero-background"></div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title animate-on-scroll">
+           About Us 
+          </h1>
+          <p class="hero-description animate-on-scroll">
+                <a href="#">Home</a> >
+                <a href="#">About Us</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" style="padding: 80px 20px; max-width: 1000px; margin: 0 auto; color: #6b7280; background-color: #ffffff;">
+    <h2 style="font-size: 36px; color: #2563eb; margin-bottom: 20px;">Get to Know Us</h2>
+    <p style="font-size: 18px; line-height: 1.6; margin-bottom: 40px;">
+      Test Automation PH is a dedicated community and training hub for aspiring and experienced software testers in the Philippines.
+      We provide high-quality test automation services, hands-on training, and real-world project experience to help individuals and businesses
+      improve their software quality, delivery speed, and testing efficiency.
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+      <div style="flex: 1; min-width: 260px;">
+        <h3 style="color: #2563eb;">Our Mission</h3>
+        <p style="line-height: 1.6;">
+          To empower Filipino QA professionals and organizations through expert-led automation training, practical tools, and mentorship—making test automation accessible, impactful, and career-defining.
+        </p>
+      </div>
+      <div style="flex: 1; min-width: 260px;">
+        <h3 style="color: #2563eb;">What We Offer</h3>
+        <ul style="line-height: 1.8; padding-left: 20px; list-style-type: none" > 
+          <li>✔️ Testing-as-a-Service (TaaS)</li>
+          <li>✔️ Individual & Corporate Training Programs</li>
+          <li>✔️ Real Project Experience & Mentorship</li>
+          <li>✔️ Community Support & Career Guidance</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Footer -->
+    <footer class="footer animate-on-scroll">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Company Info -->
+          <div class="footer-company">
+            <h3>Test Automation PH</h3>
+            <p>
+              Empowering software testers and organizations with comprehensive test automation solutions 
+              to ensure application quality and reliability through automated testing processes.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./index.html#services">Services</a></li>
+              <li><a href="./index.html#testimonials">Testimonials</a></li>
+              <li><a href="./index.html#blog">Blog</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <ul>
+              <li>info@testautomationph.com</li>
+              <li>+63 (2) 123-4567</li>
+              <li>123 Tech Street<br />Makati City, Metro Manila 1200</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 / Powered by <span class="highlight">Test Forge IT Consultancy</span> in 
+            partnership with <span class="highlight">Code Blossom</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
