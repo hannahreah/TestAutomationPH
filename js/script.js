@@ -136,4 +136,13 @@ window.addEventListener('load', () => {
 // Opens the link in a new tab
 function openInNewTab() {
     window.open('https://labs.testautomationph.com/', '_blank');
+<<<<<<< HEAD
   }
+
+//Scroll to Services section
+ function goToServices() {
+      document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+    }
+=======
+  }
+>>>>>>> main
