@@ -347,6 +347,16 @@ body {
   margin-bottom: 2rem;
   line-height: 1.6;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+<<<<<<< HEAD
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.hero-description a {
+   text-decoration: none;  
+  color: #fff;  
+=======
+>>>>>>> main
 }
 
 .hero-title-main {
@@ -370,7 +380,12 @@ body {
 
 /* Sections */
 .testimonials,
+<<<<<<< HEAD
+.blog,
+.services {
+=======
 .blog {
+>>>>>>> main
   padding: 5rem 0;
 }
 
@@ -711,7 +726,11 @@ body {
   }
   
   .testimonials-grid,
+<<<<<<< HEAD
+  .blog-grid, .services-grid {
+=======
   .blog-grid {
+>>>>>>> main
     grid-template-columns: 1fr;
   }
 }
@@ -735,7 +754,11 @@ body {
   }
   
   .testimonials,
+<<<<<<< HEAD
+  .blog, .services {
+=======
   .blog {
+>>>>>>> main
     padding: 3rem 0;
   }
   
@@ -746,4 +769,53 @@ body {
   .hero-title {
     font-size: 1.75rem;
   }
+<<<<<<< HEAD
+}
+/* Services */
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.services-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  align-self: center;
+  justify-content: center;
+}
+
+.services-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border-color: #1d4ed8;
+  border-width: 2px;
+}
+
+.services-card p {
+  color: #374151;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  line-height: 1.6;
+  font-size:medium;
+}
+
+.services-card h3 {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.25rem;
+  padding-bottom: 1rem;
+=======
+>>>>>>> main
 }
